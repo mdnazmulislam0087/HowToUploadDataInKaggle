@@ -15,6 +15,8 @@ conda activate ./env
 ### Upload data/Folder/No need to Zip the folder
 ```bash
  kaggle datasets create -p <Path> --dir-mode zip
+ 
+ kaggle datasets create -p Desktop\CT-Kidney --dir-mode zip
  ```
  
  ## Update - Underscore in title throws error.
